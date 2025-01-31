@@ -19,7 +19,10 @@ The response format should be: {
     "current_datetime": "2025-01-31T20:50:32.833244",
     "email": "davidjoshua026@gmail.com",
     "github_url": "https://github.com/01kazu/first-api"
-}.
+}
+**Example**
+
+https://hng.tech/hire/python-developers
 
 
 
