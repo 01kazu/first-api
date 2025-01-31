@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 EMAIL_ADDRESS = 'davidjoshua026@gmail.com'
-GITHUB_URL = 'https://github.com/01kazu/MY-REPONAME' # PUT APPROPRIATE NAME
+GITHUB_URL = 'https://github.com/01kazu/first-api'
 
 
 def get_current_datetime_iso():
