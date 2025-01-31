@@ -11,6 +11,6 @@ To run this code locally, you need to follow these steps:
 
 ## API DOCUMENTATION
 
-The API endpoint is https://first-
+The API endpoint is https://first-api-drab.vercel.app/data.
 
 
