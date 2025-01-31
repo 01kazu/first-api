@@ -10,8 +10,8 @@ GITHUB_URL = 'https://github.com/01kazu/first-api'
 
 
 def get_current_datetime_iso():
-    # Get current datetime
-    utc_dt = datetime.now()
+    # Get current datetime for UTC
+    utc_dt = datetime.now(timezone.utc)
     # Convert UTC time to ISO 8601 format
     iso_date = utc_dt.isoformat()
     return iso_date
