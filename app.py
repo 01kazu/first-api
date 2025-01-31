@@ -17,12 +17,13 @@ def get_current_datetime_iso():
     iso_date = utc_dt.isoformat(timespec="seconds")
     return iso_date
 
-data = {'email': EMAIL_ADDRESS,
-        'current_datetime': get_current_datetime_iso(),
-        'github_url': GITHUB_URL}
+
 
 @app.get("/data")
 def get_data():
+    data = {'email': EMAIL_ADDRESS,
+        'current_datetime': get_current_datetime_iso(),
+        'github_url': GITHUB_URL}
     return json.dumps(data, sort_keys=False)
 
 
