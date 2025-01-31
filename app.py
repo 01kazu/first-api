@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 from datetime import datetime, timezone
 from flask_cors import CORS
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -22,7 +23,7 @@ data = {'email': EMAIL_ADDRESS,
 
 @app.get("/data")
 def get_data():
-    return jsonify(data)
+    return json.dumps(data, sort_keys=False)
 
 
 if __name__ == '__main__':
