@@ -24,6 +24,7 @@ The response format should be:
 
 **Example**
 In any browser, type "https://first-api-drab.vercel.app/data" and the data will be recieved.
+![Example.png](example.png)
 
 https://hng.tech/hire/python-developers
 
