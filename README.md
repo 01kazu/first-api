@@ -23,6 +23,7 @@ The response format should be:
 } </code>
 
 **Example**
+In any browser, type "https://first-api-drab.vercel.app/data" and the data will be recieved.
 
 https://hng.tech/hire/python-developers
 
