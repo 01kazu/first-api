@@ -13,4 +13,13 @@ To run this code locally, you need to follow these steps:
 
 The API endpoint is https://first-api-drab.vercel.app/data.
 
+This is the GET request format: GET https://first-api-drab.vercel.app/data.
+
+The response format should be: {
+    "current_datetime": "2025-01-31T20:50:32.833244",
+    "email": "davidjoshua026@gmail.com",
+    "github_url": "https://github.com/01kazu/first-api"
+}.
+
+
 
