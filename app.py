@@ -14,7 +14,7 @@ def get_current_datetime_iso():
     utc_dt = datetime.now(timezone.utc)
     # Convert UTC time to ISO 8601 format
     iso_date = utc_dt.isoformat()
-    return iso_date.strftime("%Y-%m-%dT%H:%M:%S%Z")
+    return iso_date.strftime("%Y-%m-%dT%H:%M:%S")
 
 data = {'email': EMAIL_ADDRESS,
         'current_datetime': get_current_datetime_iso(),
