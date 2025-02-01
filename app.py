@@ -14,7 +14,7 @@ def get_current_datetime_iso():
     # Get current datetime for UTC
     utc_dt = datetime.now(timezone.utc)
     # Convert UTC time to ISO 8601 format
-    iso_date = utc_dt.isoformat(timespec="seconds")
+    iso_date = utc_dt.isoformat(timespec="seconds").replace('+00:00', 'Z')
     return iso_date
 
 
