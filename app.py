@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 EMAIL_ADDRESS = 'davidjoshua026@gmail.com'
-GITHUB_URL = 'https://github.com/01kazu/first-api'
+GITHUB_URL = 'https://github.com/01kazu/hngx-stage0-intro-api'
 
 
 def get_current_datetime_iso():
@@ -16,7 +16,6 @@ def get_current_datetime_iso():
     # Convert UTC time to ISO 8601 format
     iso_date = utc_dt.isoformat(timespec="seconds").replace('+00:00', 'Z')
     return iso_date
-
 
 
 @app.get("/data")

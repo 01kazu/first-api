@@ -1,4 +1,4 @@
-# FIRST API
+# INTRO API
 
 This is a public API that returns my email address, the current date time as an ISO 8601 formatted timestamp, and the GitHub link of this repository.
 
@@ -19,7 +19,7 @@ The response format should be:
 <code>{
     "current_datetime": "2025-01-31T20:50:32.833244",
     "email": "davidjoshua026@gmail.com",
-    "github_url": "https://github.com/01kazu/first-api"
+    "github_url": "https://github.com/01kazu/hngx-stage0-intro-api"
 } </code>
 
 **Example**
